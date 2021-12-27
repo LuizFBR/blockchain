@@ -27,7 +27,6 @@ Stories:
 - As a user, I would like to be a part of none or many Peer to Peer network(s), where I can perform my actions and transmit them to the rest of the network which I have performed an action on.
 - I must also listen to changes done by others in any network I'm in.
 - I would also like that there's no central node in the network, therefore I must have a maximum of k < n - 1 neighbouring nodes, where n is the number of nodes in the network.
-- I would like to have the freedom to opt in and out of any network at anytime. I'll have a unique opt in or opt out key which must be shared with no one, under any circumstances.
 
 Epic about the blockchain structure:
 > As a user I would like that any transactions that are made with my name are legit, performed only by my account, which must be secure at all times.
@@ -45,6 +44,7 @@ Stories:
 
 Stories:
 - I would like to have the freedom to opt in and out of any network at anytime. I'll have a unique opt in or opt out key which must be shared with no one, under any circumstances.
+- The network I opt in or out must not break when I perform either action(very complicated)
 
 
 ## References and Acknowledgements
