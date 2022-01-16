@@ -45,8 +45,17 @@ Stories:
 Stories:
 - I would like to have the freedom to opt in and out of any network at anytime. I'll have a unique opt in or opt out key which must be shared with no one, under any circumstances.
 - The network I opt in or out must not break when I perform either action(very complicated)
+  - Solution: Asynchronous programming!
 
 
 ## References and Acknowledgements
 
 Big thanks to 3B1B for their great guide to bitcoin: https://www.youtube.com/watch?v=bBC-nXj3Ng4&ab_channel=3Blue1Brown
+
+## Documentation
+
+At first I tried to use python sockets using this guide as reference: https://realpython.com/python-sockets/#handling-multiple-connections
+
+but I realized that would never solve the problem since the blockchain needs to be built with asynchronous programming.
+
+Documentation done so far about python sockets: https://docs.google.com/document/d/1BO7HRHxrjOtP1XfgxTK-0bNlnSE2puCCyGn3f5APUXo/edit?usp=sharing
